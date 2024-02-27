@@ -6,9 +6,18 @@ body {
 }
 main{
     background-color: aqua;
-    width: 70ch;
-    max-width: 100%;
+    width: 100%;
+    max-width: 1200px;
 }
 .card-row {
     display: flex;
+}
+.hero-content {
+    width: 75ch;
+    /* margin: 0 auto; */
+}
+.hero-container {
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet
 }
