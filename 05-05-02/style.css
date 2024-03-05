@@ -13,6 +13,8 @@ main{
     display: flex;
     background-color: aquamarine;
     flex-wrap: wrap;
+    gap: 1rem;
+    
 
 }
 .hero-content {
@@ -22,9 +24,17 @@ main{
 .hero-container {
     display: flex;
     justify-content: center;
-    background-color: blueviolet
+    background-color: blueviolet;
+    padding: 1rem;
 }
 .card {
     min-width: 18rem;
     flex: 1;
+}
+img {
+    width: 18rem;
+    height: 13rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
