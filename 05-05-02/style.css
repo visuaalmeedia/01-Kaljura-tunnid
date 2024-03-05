@@ -30,9 +30,10 @@ main{
 .card {
     min-width: 18rem;
     flex: 1;
+    background-color: chartreuse;
 }
 img {
-    width: 18rem;
+    width: 17.5rem;
     height: 13rem;
     display: block;
     margin-left: auto;
