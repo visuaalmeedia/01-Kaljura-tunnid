@@ -3,14 +3,17 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    padding: 1rem;
 }
 main{
-    background-color: aqua;
     width: 100%;
-    max-width: 1200px;
+    max-width: 56rem;
 }
 .card-row {
     display: flex;
+    background-color: aquamarine;
+    flex-wrap: wrap;
+
 }
 .hero-content {
     width: 75ch;
@@ -20,4 +23,8 @@ main{
     display: flex;
     justify-content: center;
     background-color: blueviolet
+}
+.card {
+    min-width: 18rem;
+    flex: 1;
 }
