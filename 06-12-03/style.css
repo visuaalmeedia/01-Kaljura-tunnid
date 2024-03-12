@@ -4,6 +4,8 @@ body {
     align-items: center;
     min-height: 100vh;
     padding: 1rem;
+    background-image: url("images/galaxyy.jpeg");
+    background-size: 170rem;
     font-family: "Saira Condensed", sans-serif;
     font-weight: 100;
     font-style: normal;
@@ -43,7 +45,6 @@ h1, h2 {
 .card {
     min-width: 18rem;
     flex: 1;
-    background-color: chartreuse;
 }
 img {
     width: 100%;
@@ -52,4 +53,5 @@ img {
     margin-right: auto;
     aspect-ratio: 4/3;
     object-fit: cover;
+    border-radius: 1rem;
 }
