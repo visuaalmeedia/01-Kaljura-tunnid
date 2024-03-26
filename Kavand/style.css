@@ -3,6 +3,11 @@ body {
     background-image: url("images/kerttubackground (1).png");
     background-size: fill;
 }
+main {
+    display: flex;
+    min-width: 18rem;
+    flex-wrap: wrap;
+}
 h1, p {
     color: #EFE8FB;
 }
@@ -12,9 +17,30 @@ h1 {
     -webkit-text-stroke-color: #9F5F13;
     -webkit-text-stroke-width: 0.25rem;
     text-shadow: -9px 6px 15px #d2bf552f;
+    max-width: 600px;
 }
 p {
     font-family: inter;
     text-shadow: -3px 2px 0px #7F2B3A;
+    max-width: 40rem;
 
+}
+.button {
+    background-color: #FFEED6;
+    border: 2px solid #FFAF51;
+    border-radius: 12px;
+    color: #FF738D;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 4px 2px;
+    font-family: inter;
+    cursor: pointer;
+    } 
+img {
+    width: 75%;
+    padding-top: 6rem;
+    padding-left: 13rem;
 }
