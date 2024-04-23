@@ -39,6 +39,10 @@ p {
     font-family: inter;
     cursor: pointer;
     } 
+    .button:hover {
+        background-color: #eacda5 ;
+        color: #ff002f;
+    }
 img {
     width: 75%;
     padding-top: 6rem;
