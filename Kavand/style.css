@@ -7,7 +7,6 @@ main {
     display: flex;
     min-width: 18rem;
     flex-wrap: wrap;
-    margin-top: 2rem;
     margin-left: auto;
     margin-right: auto;
 }
@@ -29,6 +28,9 @@ p {
     max-width: 40rem;
 
 }
+div {
+    margin: 0 auto;
+}
 .button {
     background-color: #FFEED6;
     border: 2px solid #FFAF51;
@@ -42,11 +44,16 @@ p {
     margin: 4px 2px;
     font-family: inter;
     cursor: pointer;
+    margin: 0 auto;
+    display: block;
+    width: fit-content;
+
     } 
     .button:hover {
         background-color: #eacda5 ;
         color: #ff002f;
     }
+    
 img {
     width: 65%;
     display: block;
