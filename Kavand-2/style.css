@@ -5,11 +5,13 @@ body {
     padding: 0;
     flex-direction: column;
     text-align: center;
+    
 }
 main {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    
 }
 h1 {
     color: #FFE6C0;
@@ -64,4 +66,7 @@ header ul {
  .card-row {
     display: flex;
     gap: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    flex-wrap: wrap;
  }
