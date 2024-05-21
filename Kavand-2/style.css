@@ -11,6 +11,7 @@ main {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding: 0 1rem 2rem 1rem;
     
 }
 h1 {
@@ -60,7 +61,6 @@ header ul {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    aspect-ratio: 1/1;
  }
 
  .card-row {
@@ -69,4 +69,7 @@ header ul {
     margin-left: 2rem;
     margin-right: 2rem;
     flex-wrap: wrap;
+ }
+ .people {
+    width: 100%;
  }
